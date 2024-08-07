@@ -179,6 +179,9 @@
     padding-top: 6px !important;
     padding-bottom: 6px !important;
   }
+  .text-blue {
+    color: #4574AC;
+  }
 
   .mt59 {
     margin-top: 59px !important;
@@ -895,10 +898,10 @@
 <section class="pt70 sectionRelativeScroll">
   <span id="challengeprogram" class="spanAbsoluteScroll"></span>
   <div class="content">
-    <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
+    <h1 class="c-secttl is-red">3つの特色教育を支える<span class=text-blue>チャレンジプログラム</span></h1>
     <div class="l-imgTxt mt30">
       <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50">
+      <!-- <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50"> -->
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">放課後学習チャレンジ</h3>
