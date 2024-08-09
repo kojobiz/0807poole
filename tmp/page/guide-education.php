@@ -651,6 +651,14 @@
       color: #fff;
       letter-spacing: 0.3em !important;
     }
+    .tokusyoku-fv_nav--4 {
+      padding-top: 12px;
+      padding-left: 1% !important;
+      padding-right: 1% !important;
+      background-color: #C74954;
+      color: #fff;
+      letter-spacing: 0.3em !important;
+    }
 
     .tokusyoku-fv_nav--1 {
       padding-top: 12px;
