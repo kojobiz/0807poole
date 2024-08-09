@@ -17,7 +17,7 @@
 
       <section class=" mt70">
         <h2 class="c-secttl-box">進路状況</h2>
-        <img class="mt30 img7681200" src="<?php echo $imagePath ?>career/graduation/img01_shinrojokyo.jpg" alt="大学進学率91.9%、国公立を含む難関有名大学に72.3%が進学" width="1200" height="1073">
+        <img class="mt30 img7681200" src="<?php echo $imagePath ?>career/graduation/img01_shinrojokyo.jpg" alt="大学進学率91.9%、国公立を含む難関有名大学に76.3%が進学" width="1200" height="1073">
       </section>
 
       <section class=" mt70">
