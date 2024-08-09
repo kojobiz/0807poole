@@ -26,9 +26,6 @@
     /* border-color:#4574AC!important; */
     border: 2px solid #4574AC!important;
   }
-  /* .text-black {
-    color:#333333!important;
-  } */
   /* キリスト教教育 */
   .tokusyoku-fv_nav--2 {
     width: calc(100% / 3) !important;
@@ -130,9 +127,29 @@
       z-index: -1;
     }
   }
+  .c-secttl-box-color--orange {
+    font-size: 2.4rem;
+    font-family: "Noto Serif JP", serif;
+    background-image: url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_ttl_gra_orange.jpg");
+    padding: 8px 25px;
+    line-height: 1.4;
+    position: relative;
+    color: #fff;
+
+    &::before{
+      content:"";
+      width: 100%;
+      height: 100%;
+      background-color: #ece9ec;
+      position: absolute;
+      left: 5px;
+      bottom: -5px;
+      z-index: -1;
+    }
+  }
 
 
-
+  /* 共通 */
   .mt15 {
     margin-top: 15px;
   }
