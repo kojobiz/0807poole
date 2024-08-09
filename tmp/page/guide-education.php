@@ -17,10 +17,14 @@
     margin-inline: inherit !important;
     background-color:#fff!important;
     color:#333333!important;
+    display:flex!important;
+    flex-direction: row;
+    justify-content:center;
   }
   .tokusyoku-fv_nav--1:hover {
     background-color:#fff!important;
-    border-color:#4574AC!important;
+    /* border-color:#4574AC!important; */
+    border: 2px solid #4574AC!important;
   }
   /* .text-black {
     color:#333333!important;
@@ -63,7 +67,18 @@
     font-family: "Noto Serif JP", serif;
     border: 1px solid #f9f9f9 !important;
   }
-
+  .tokusyoku-fv_nav--2:hover {
+    background-color: rgba(190, 15, 15, 0.9)!important;
+    border-color:#ee809c !important;
+  }
+  .tokusyoku-fv_nav--3:hover {
+    background-color: rgba(77, 121, 208, 0.9)!important;
+    border-color:#a69dcb !important;
+  }
+  .tokusyoku-fv_nav--4:hover {
+    background-color: rgba(238, 164, 124, 0.9)!important;
+    border-color:#f3a777 !important;
+  }
   .tokusyoku-fv_nav--1::before {
     background:url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-blue.png") no-repeat 50% 50%/contain!important;
     transform: rotate(90deg);
@@ -74,7 +89,49 @@
     background:url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png") no-repeat 50% 50%/contain!important;
     transform: rotate(90deg);
   }
-  
+  /* タイトル設定 */
+  .c-secttl-box-color--pink {
+    font-size: 2.4rem;
+    font-family: "Noto Serif JP", serif;
+    background-image: url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_ttl_gra_pink.jpg");
+    padding: 8px 25px;
+    line-height: 1.4;
+    position: relative;
+    color: #fff;
+
+    &::before{
+      content:"";
+      width: 100%;
+      height: 100%;
+      background-color: #ece9ec;
+      position: absolute;
+      left: 5px;
+      bottom: -5px;
+      z-index: -1;
+    }
+  }
+  .c-secttl-box-color--purple {
+    font-size: 2.4rem;
+    font-family: "Noto Serif JP", serif;
+    background-image: url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_ttl_gra_purple.jpg");
+    padding: 8px 25px;
+    line-height: 1.4;
+    position: relative;
+    color: #fff;
+
+    &::before{
+      content:"";
+      width: 100%;
+      height: 100%;
+      background-color: #ece9ec;
+      position: absolute;
+      left: 5px;
+      bottom: -5px;
+      z-index: -1;
+    }
+  }
+
+
 
   .mt15 {
     margin-top: 15px;
@@ -536,7 +593,7 @@
       padding-left: 1% !important;
       padding-right: 1% !important;
       background-color: #C74954;
-      border: solid 1px #C74954 !important;
+      /* border: solid 1px #C74954 !important; */
       color: #fff;
       letter-spacing: 0.25em !important;
     }
@@ -546,7 +603,7 @@
       padding-left: 1% !important;
       padding-right: 1% !important;
       background-color: #C74954;
-      border: solid 1px #C74954 !important;
+      /* border: solid 1px #C74954 !important; */
       color: #fff;
       letter-spacing: 0.3em !important;
     }
@@ -556,7 +613,7 @@
       padding-left: 1% !important;
       padding-right: 1% !important;
       background-color: #C74954;
-      border: solid 1px #C74954 !important;
+      /* border: solid 1px #C74954 !important; */
       color: #fff;
       letter-spacing: 0.3em !important;
     }
@@ -612,7 +669,7 @@
               <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--4">英語学習</a>
             </div>
             <div class="c-btnList mt15">
-              <a href="https://poole.ed.jp/guide/education/#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span></a>
+              <a href="https://poole.ed.jp/guide/education/#challengeprogram" class="tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span></a>
             </div>
           </div>
         </nav>
@@ -642,7 +699,7 @@
   <div class="content">
     <h2 class="u-copy u-center sp-mb0">プール学院の教育01</h2>
     <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/cross.png" alt="">
-    <h3 class="c-secttl-box">キリスト教教育</h3>
+    <h3 class="c-secttl-box-color--pink">キリスト教教育</h3>
     <div class="l-imgTxt mt30">
       <div>
         <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">感謝と奉仕の実践ともに祈り、<br class="pc">ともに生きる</h2>
@@ -742,7 +799,7 @@
   <span id="education02" class="spanAbsoluteScroll"></span>
   <div class="content">
     <h2 class="u-copy u-center mb30">プール学院の教育02</h2>
-    <h3 class="c-secttl-box ">探究学習</h3>
+    <h3 class="c-secttl-box-color--purple ">探究学習</h3>
     <div class="l-imgTxt mt30">
       <div>
         <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">総合力をはぐくむ</h2>
@@ -857,7 +914,7 @@
   <span id="education03" class="spanAbsoluteScroll"></span>
   <div class="content">
     <h2 class="u-copy u-center mb30">プール学院の教育03</h2>
-    <h3 class="c-secttl-box">英語学習</h3>
+    <h3 class="c-secttl-box-color--orange">英語学習</h3>
     <div class="l-imgTxt mt30 j-space-between">
       <div>
         <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる<br class="pc">真の「国際教育」を実践します。</h2>
