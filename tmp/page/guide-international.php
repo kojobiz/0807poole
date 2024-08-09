@@ -18,7 +18,6 @@
     }
   }
 </style>
-</style>
 <div class="c-pagettl">
   <img src="<?php echo $imagePath ?>guide/greetings/mv.jpg" alt="">
   <p class="bg-pink c-pagettl__ttl">
