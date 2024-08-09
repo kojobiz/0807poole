@@ -14,6 +14,11 @@
     width: calc((100% / 3) - 10px) !important;
     font-size: clamp(14px, 4vw, 14px) !important;
     margin-inline: inherit !important;
+    background-image: url('https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_fv_gra_purple.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
   }
 
   .tokusyoku-fv_nav--2 {
@@ -22,14 +27,20 @@
     margin-inline: inherit !important;
     padding-left: 5%;
     padding-right: 1%;
-
+    background-image: url('https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_fv_gra_pink.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
   }
 
-  .tokusyoku-fv_nav--3::before {
+  .tokusyoku-fv_nav--3::before,
+  .tokusyoku-fv_nav--1::before {
     transform: rotate(90deg);
   }
 
   .tokusyoku-fv_nav--2::before {
+    background:url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png") no-repeat 50% 50%/contain!important;
     transform: rotate(90deg);
   }
 
@@ -37,10 +48,6 @@
     width: 100% !important;
     font-size: clamp(10px, 4vw, 14px) !important;
     margin-inline: inherit !important;
-  }
-
-  .tokusyoku-fv_nav--1::before {
-    transform: rotate(90deg);
   }
 
   .mt15 {
@@ -480,6 +487,7 @@
     .tokusyoku-fv_nav--2 {
       padding-left: 3% !important;
     }
+    
   }
 
   @media screen and (max-width: 634px) {
@@ -549,10 +557,6 @@
     }
 
     .tokusyoku-fv_nav--1 a {
-      height: auto;
-    }
-
-    .tokusyoku-fv_nav--2 a {
       height: auto;
     }
 
