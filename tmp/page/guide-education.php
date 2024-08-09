@@ -10,17 +10,22 @@
 
 
 <style>
-  .tokusyoku-fv_nav--3 {
-    width: calc((100% / 3) - 10px) !important;
-    font-size: clamp(14px, 4vw, 14px) !important;
+  /* 3つの特色教育を支えるチャレンジプログラム */
+  .tokusyoku-fv_nav--1 {
+    width: 100% !important;
+    font-size: clamp(10px, 4vw, 14px) !important;
     margin-inline: inherit !important;
-    background-image: url('https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_fv_gra_purple.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    font-family: "Noto Serif JP", serif;
+    background-color:#fff!important;
+    color:#333333!important;
   }
-
+  .tokusyoku-fv_nav--1:hover {
+    background-color:#fff!important;
+    border-color:#4574AC!important;
+  }
+  /* .text-black {
+    color:#333333!important;
+  } */
+  /* キリスト教教育 */
   .tokusyoku-fv_nav--2 {
     width: calc(100% / 3) !important;
     font-size: clamp(14px, 4vw, 14px) !important;
@@ -32,23 +37,44 @@
     background-position: center;
     color: #fff;
     font-family: "Noto Serif JP", serif;
+    border: 1px solid #f9f9f9 !important;
+  }
+  /* 探究学習 */
+  .tokusyoku-fv_nav--3 {
+    width: calc((100% / 3) - 10px) !important;
+    font-size: clamp(14px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
+    background-image: url('https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_fv_gra_purple.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
+    border: 1px solid #f9f9f9 !important;
+  }
+  /* 英語学習 */
+  .tokusyoku-fv_nav--4 {
+    width: calc((100% / 3) - 10px) !important;
+    font-size: clamp(14px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
+    background-image: url('https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/bk_fv_gra_orange.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
+    border: 1px solid #f9f9f9 !important;
   }
 
-  .tokusyoku-fv_nav--3::before,
   .tokusyoku-fv_nav--1::before {
+    background:url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-blue.png") no-repeat 50% 50%/contain!important;
     transform: rotate(90deg);
   }
-
-  .tokusyoku-fv_nav--2::before {
+  .tokusyoku-fv_nav--2::before,
+  .tokusyoku-fv_nav--3::before,
+  .tokusyoku-fv_nav--4::before {
     background:url("https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png") no-repeat 50% 50%/contain!important;
     transform: rotate(90deg);
   }
-
-  .tokusyoku-fv_nav--1 {
-    width: 100% !important;
-    font-size: clamp(10px, 4vw, 14px) !important;
-    margin-inline: inherit !important;
-  }
+  
 
   .mt15 {
     margin-top: 15px;
@@ -207,7 +233,7 @@
     padding-top: 6px !important;
     padding-bottom: 6px !important;
   }
-  .text-blue {
+  .challenge-blue {
     color: #4574AC;
   }
 
@@ -583,10 +609,10 @@
             <div class="c-btnList mt70 j-space-between sp-mt40">
               <a href="https://poole.ed.jp/guide/education/#education01" class="tokusyoku-fv_nav--2">キリスト教教育</a>
               <a href="https://poole.ed.jp/guide/education/#education02" class="tokusyoku-fv_nav--3">探究学習</a>
-              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--3">英語学習</a>
+              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--4">英語学習</a>
             </div>
             <div class="c-btnList mt15">
-              <a href="https://poole.ed.jp/guide/education/#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
+              <a href="https://poole.ed.jp/guide/education/#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span></a>
             </div>
           </div>
         </nav>
@@ -595,10 +621,10 @@
             <div class="c-btnList--sp mt70 j-space-between sp-mt40">
               <a href="https://poole.ed.jp/guide/education/#education01" class="tokusyoku-fv_nav--2">キリスト教教育 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
               <a href="https://poole.ed.jp/guide/education/#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
-              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--4">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
             <div class="c-btnList--sp mt15">
-              <a href="https://poole.ed.jp/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
           </div>
         </nav>
@@ -928,7 +954,7 @@
 <section class="pt70 sectionRelativeScroll">
   <span id="challengeprogram" class="spanAbsoluteScroll"></span>
   <div class="content">
-    <h1 class="c-secttl is-red">3つの特色教育を支える<br class="pc-none"><span class=text-blue>チャレンジプログラム</span></h1>
+    <h1 class="c-secttl is-red">3つの特色教育を支える<br class="pc-none"><span class=challenge-blue>チャレンジプログラム</span></h1>
     <div class="l-imgTxt mt30">
       <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
       <!-- <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50"> -->
