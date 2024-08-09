@@ -96,7 +96,7 @@
     position: relative;
     color: #fff;
 
-    &::before{
+    /* &::before{
       content:"";
       width: 100%;
       height: 100%;
@@ -105,7 +105,7 @@
       left: 5px;
       bottom: -5px;
       z-index: -1;
-    }
+    } */
   }
   .c-secttl-box-color--purple {
     font-size: 2.4rem;
@@ -116,7 +116,7 @@
     position: relative;
     color: #fff;
 
-    &::before{
+    /* &::before{
       content:"";
       width: 100%;
       height: 100%;
@@ -125,7 +125,7 @@
       left: 5px;
       bottom: -5px;
       z-index: -1;
-    }
+    } */
   }
   .c-secttl-box-color--orange {
     font-size: 2.4rem;
@@ -136,7 +136,7 @@
     position: relative;
     color: #fff;
 
-    &::before{
+    /* &::before{
       content:"";
       width: 100%;
       height: 100%;
@@ -145,7 +145,28 @@
       left: 5px;
       bottom: -5px;
       z-index: -1;
-    }
+    } */
+  }
+  .c-secttl-box-color--white {
+    font-size: 2.4rem;
+    font-family: "Noto Serif JP", serif;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    padding: 8px 25px;
+    line-height: 1.4;
+    position: relative;
+    color: #333;
+
+    /* &::before{
+      content:"";
+      width: 100%;
+      height: 100%;
+      background-color: #ece9ec;
+      position: absolute;
+      left: 5px;
+      bottom: -5px;
+      z-index: -1;
+    } */
   }
 
 
@@ -480,6 +501,9 @@
     flex-direction: row;
     justify-content:space-between;
   }
+  .maxw250 {
+    max-width: 250px;
+  }
 
   @media screen and (min-width: 1024px) {
     .c-btnList a {
@@ -546,6 +570,10 @@
 
     .pt15 {
       padding-top: 15px;
+    }
+    .col767 {
+      flex-direction:column;
+      justify-content:spacebetween;
     }
   }
 
@@ -620,7 +648,6 @@
       padding-left: 1% !important;
       padding-right: 1% !important;
       background-color: #C74954;
-      /* border: solid 1px #C74954 !important; */
       color: #fff;
       letter-spacing: 0.3em !important;
     }
@@ -630,9 +657,9 @@
       padding-left: 1% !important;
       padding-right: 1% !important;
       background-color: #C74954;
-      /* border: solid 1px #C74954 !important; */
       color: #fff;
       letter-spacing: 0.3em !important;
+      display:grid!important;
     }
 
     .sp-arrow {
@@ -698,7 +725,7 @@
               <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--4">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
             <div class="c-btnList--sp mt15">
-              <a href="https://poole.ed.jp/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支える<span class="u-noto challenge-blue">チャレンジプログラム</span><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-blue.png" alt="" class="sp-arrow"></a>
             </div>
           </div>
         </nav>
@@ -1014,7 +1041,7 @@
     <div>
       <div class="l-imgTxt j-space-between mt47">
         <div>
-          <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--pink u-fontSize2628 u-noto">グローバルチャレンジ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--pink u-fontSize2628 u-noto">グローバルチャレンジ<br class="pc-none">プログラム<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
           <p class="u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
         </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09_2c.png" alt="" width="300" height="225">
@@ -1029,12 +1056,13 @@
   <span id="challengeprogram" class="spanAbsoluteScroll"></span>
   <div class="content">
     <h1 class="c-secttl is-red">3つの特色教育を支える<br class="pc-none"><span class=challenge-blue>チャレンジプログラム</span></h1>
+    <h3 class="c-secttl-box-color--white mt40">3つの特色教育を支える<br class="pc-none"><span class=challenge-blue>チャレンジプログラム</span></h3>
     <div class="l-imgTxt mt30">
       <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
       <!-- <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50"> -->
     </div>
     <!-- content -->
-    <div class="challenge-wrapper mt70">
+    <div class="challenge-wrapper mt70 l-imgTxt j-space-between col767">
       <div>
         <h4 class="c-secSubttl-m u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto">放課後学習<br class="pc-none">チャレンジプログラム</h4>
         <div class="l-imgTxt mt30">
@@ -1057,10 +1085,10 @@
           </div>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02_2c.png" alt="" width="552" height="auto" class="img50">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02_2c.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
-    <div class="challenge-wrapper mt70">
+    <div class="challenge-wrapper mt70 l-imgTxt j-space-between col767">
       <div>
         <h4 class="c-secSubttl-m u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto">課外活動体験<br class="pc-none">チャレンジプログラム</h4>
         <div class="l-imgTxt mt30">
@@ -1083,10 +1111,10 @@
           </div>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="552" height="auto" class="img50">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03_2c.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
-    <div class="challenge-wrapper mt70">
+    <div class="challenge-wrapper mt70 l-imgTxt j-space-between col767">
       <div>
         <h4 class="c-secSubttl-m u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto">グローバル<br class="pc-none">チャレンジプログラム</h4>
         <div class="l-imgTxt mt30">
@@ -1108,9 +1136,9 @@
           </div>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40 img50"> 
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04_2c.png" alt="" width="552" height="auto" class="sp-mblockend0start40"> 
     </div> 
-    <a href="https://poole.ed.jp/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a> 
+    <a href="https://poole.ed.jp/guide/international/" class="c-btn c-btn--more mt40 maxw250" target="_blank" rel="noopener noreferrer">詳しくはこちら</a> 
 </section>
 
 <div class="content">
