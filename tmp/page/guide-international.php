@@ -6,6 +6,12 @@
   .text-white {
     color:#fff!important;
   }
+  .subttle-red {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #c74954;
+  }
   @media screen and (min-width: 1024px) {
     .c-btnList a {
       font-size: 1.2rem;
@@ -15,6 +21,14 @@
   @media screen and (max-width: 520px) {
     .sp-ttl {
       display: block;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .sp-mb60 {
+      margin-bottom:60px;
+    }
+    .sp-mt100 {
+      margin-top:100px;
     }
   }
 </style>
@@ -45,17 +59,17 @@
     <section class="mt40">
       <h3 class="u-copy u-fontSize-l">&emsp;ステージ1&emsp;<br class="sp">英語で話すトレーニング</h3>
       <div class="c-flex-col2 mt40">
-        <div>
+        <div class="sp-mb60">
           <img src="<?php echo $imagePath ?>guide/international/program01.jpg" alt="">
           <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">E-Act<br>（英語コミュニケーションプログラム）</h4>
-          <p class="u-label mt10">中学全学年&emsp;全コース対象</p>
+          <p class="subttle-red mt10">中学全学年&emsp;全コース対象</p>
           <p class="mt10">年1〜2回実施。さまざまなゲームやアクティビティなどを通じて、ディベートやディスカッション、さらにプレゼンテーションと、英語のコミュニケーション力を育成する実践的なプログラムを取り入れています。</p>
         </div>
 
-        <div>
+        <div class="sp-mb60">
           <img src="<?php echo $imagePath ?>guide/international/program03.jpg" alt="">
           <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">British Hills<br>英語合宿</h4>
-          <p class="u-label mt10">対象：中学3年</p>
+          <p class="subttle-red mt10">対象：中学3年</p>
           <p class="mt10">3日間英語だけで過ごし、ネイティブスピーカーの先生とお菓子作りやスポーツを楽しみます。ディナーではテーブルマナーを身につけます。</p>
         </div>
       </div>
@@ -63,61 +77,61 @@
   </div>
 </section>
 
-<section class="mt60">
+<section class="mt60 sp-mt100">
   <div class="content">
     <h3 class="u-copy u-fontSize-l">&emsp;ステージ2&emsp;<br class="sp">ホームステイの体験で<br class="sp">海外の生活に触れる</h3>
     <p class="c-secSubttl-s u-center mt20">中高生の希望者が参加できます。</p>
     <div class="c-flex-col2 mt40">
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program04.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">オーストラリア<br>語学研修</h4>
-        <p class="u-label mt10">対象：中学2年・3年・高校1年</p>
+        <p class="subttle-red mt10">対象：中学2年・3年・高校1年</p>
         <p class="mt10">語学学校で生活に必要な英語を勉強しながら、はじめてのホームステイ体験をします。研修中に真夏のクリスマスをお迎えできます。</p>
       </div>
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program05.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">韓国姉妹校<br>崇徳女子校訪問</h4>
-        <p class="u-label mt10">対象：中学3年～高校2年</p>
+        <p class="subttle-red mt10">対象：中学3年～高校2年</p>
         <p class="mt10">姉妹校生徒の家庭に4泊5日ホームステイして互いの文化についてプレゼンテーションしたり民族衣装を着たりして交流を深めます。</p>
       </div>
     </div><!-- /.c-flex-col3 -->
   </div><!-- /.content -->
 </section>
 
-<section class="mt70">
+<section class="mt60 sp-mt100">
   <div class="content">
     <h3 class="u-copy u-fontSize-l">&emsp;ステージ3&emsp;<br class="sp">本格的な留学で語学力と<br class="sp">グローバル感覚を身につける</h3>
     <div class="c-flex-col3 mt40">
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program07.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">イギリス<br>語学研修</h4>
-        <p class="u-label mt10">対象：中学3年・高校1年・2年</p>
+        <p class="subttle-red mt10">対象：中学3年・高校1年・2年</p>
         <p class="mt10">夏休みを利用して英語を集中的にトレーニングします。英検準2級～2級程度を目指します。週末には英国各地を小旅行します。学院のルーツをたどりプール主教の墓参も行います。</p>
       </div>
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program08.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">ニュージーランド<br>短期語学留学</h4>
-        <p class="u-label mt10">対象：高校2年</p>
+        <p class="subttle-red mt10">対象：高校2年</p>
         <p class="mt10">期間の前半は語学学校で英語を学び、後半は現地の高校に入り授業を受けます。実践的な英語力を身につけるプログラムです。</p>
       </div>
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program09.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">カナダ<br>1年留学</h4>
-        <p class="u-label mt10">対象：高校2年</p>
+        <p class="subttle-red mt10">対象：高校2年</p>
         <p class="mt10">バンクーバー近郊の高校に入学し、留学生として英会話を学びながら、高校の授業を受けます。夏期休暇中は、TOEIC講座でスコアアップを目指します。</p>
       </div>
     </div><!-- /.c-flex-col3 -->
     <div class="c-flex-col3 mt40">
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program10.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">韓国姉妹校崇徳女子高校<br>短期交換留学</h4>
-        <p class="u-label mt10">対象：高校2年</p>
+        <p class="subttle-red mt10">対象：高校2年</p>
         <p class="mt10">姉妹校生の家庭から通学します。韓国の高校生のライフスタイルに触れることができ、将来韓国の大学に留学する準備にもなります。</p>
       </div>
-      <div>
+      <div class="sp-mb60">
         <img src="<?php echo $imagePath ?>guide/international/program11.jpg" alt="">
         <h4 class="u-center u-red u-fontSize-m mt10 c-secSubttl-s u-label text-white">タイSWK校交流ツアー<br class="sp">〜ボランティア・スタディ・プログラム〜</h4>
-        <p class="u-label mt10">対象：高校2年</p>
+        <p class="subttle-red mt10">対象：高校2年</p>
         <p class="mt10">タイの人々、文化との“出会い”を通して、自分と向き合い、社会や世界を問い直すとともに、経済的に就学困難な児童がいる地域を訪れ、心の交流を深めるプログラムを用意しています。</p>
       </div>
       <div>
