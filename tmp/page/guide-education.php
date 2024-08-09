@@ -1058,11 +1058,11 @@
     <h1 class="c-secttl is-red">3つの特色教育を支える<br class="pc-none"><span class=challenge-blue>チャレンジプログラム</span></h1>
     <h3 class="c-secttl-box-color--white mt40">3つの特色教育を支える<br class="pc-none"><span class=challenge-blue>チャレンジプログラム</span></h3>
     <div class="l-imgTxt mt30">
-      <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
+      <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです。<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
       <!-- <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50"> -->
     </div>
     <!-- content -->
-    <div class="challenge-wrapper mt70 l-imgTxt j-space-between col767">
+    <div class="challenge-wrapper mt40 l-imgTxt j-space-between col767">
       <div>
         <h4 class="c-secSubttl-m u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto">放課後学習<br class="pc-none">チャレンジプログラム</h4>
         <div class="l-imgTxt mt30">
